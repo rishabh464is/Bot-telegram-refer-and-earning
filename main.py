@@ -9,7 +9,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Your Telegram chat ID where you want to receive UPI info, also from environment variables
-YOUR_CHAT_ID = os.getenv("6821703161")
+YOUR_CHAT_ID = os.getenv("YOUR_CHAT_ID")
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
